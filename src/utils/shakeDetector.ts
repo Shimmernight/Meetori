@@ -1,6 +1,5 @@
 // src/utils/shakeDetector.ts
 import { Accelerometer } from 'expo-sensors'
-import { throttle } from 'lodash'
 
 // 配置参数
 const SHAKE_THRESHOLD = 15 // 加速度阈值（m/s²）
